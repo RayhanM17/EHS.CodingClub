@@ -15,9 +15,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-none px-5">
       <div class="container-xxl">
-        <a href="index.html" class="navbar-brand d-sm-inline-flex d-flex-column align-items-center justify-content-sm-start justify-content-center">
-          <div class="img"></div>
-          <h4>Coding Club</h4>
+        <a href="index.html" class="navbar-brand mt-3">
+          <div class="d-flex align-items-center">
+            <div class="img"></div>
+            <h4 class="mb-3">Coding Club</h4>
+          </div>
         </a>
         <!-- toggle btn mobile nav-->
         <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
@@ -37,7 +39,7 @@
               <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item ms-lg-5">
-              <a href="competitions.html" class="nav-link">Competitions</a>
+              <a href="comp.html" class="nav-link">Competitions</a>
             </li>
             <li class="nav-item ms-lg-5">
               <a href="competitions.html" class="nav-link">Gallery</a>
@@ -46,7 +48,7 @@
               <a href="#contact" class="nav-link">Contact</a>
             </li>
             <li class="nav-item ms-2 d-none d-lg-inline ms-lg-5">
-              <a href="#contact" class="btn btn-outline-dark">Contact</a>
+              <a href="#contact" class="btn btn-outline-light">Contact</a>
             </li>
           </ul>
         </div>
@@ -55,56 +57,55 @@
     <!--Hero-->
     <section class="bg-none text-light p-5 hero">
       <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <h1>1# Voted Club in Everglades High School</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsa veniam maiores voluptas sint ab ad commodi, facere provident debitis.</p>
+        <div class="row mb-5 align-items-center justify-content-between">
+          <div class="col-md text-center text-md-start">
+            <h1 class="mb-4">1# Voted Club in Everglades High School</h1>
+            <p class="mb-4">We are a community of students who encourage and help build each others programing skills.</p>
             <button href="#" class="btn btn-secondary">View Gallery</button>
           </div>
-          <div class="col-md">
-            <div class="card">
-              <div class="img"></div>
-            </div>
-          </div>
+          <div class="col-md d-none d-md-inline">
+            <div class="img"></div>
+          </div>    
         </div>
       </div>
     </section>
   </div>
-  <section class="bg-dark text-light p-5 competitions">
+  <!--Competitions-->
+  <section class="bg-secondary text-light p-5 competitions">
     <div class="container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="d-flex align-items-center justify-content-center">
           <h3>Latest Competitions</h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-2">
         <div class="col-md">
-          <div class="card bg-secondary">
+          <div class="card bg-dark mb-3">
             <div class="img"></div>
             <div class="card-body">
               <h5 class="card-title">Congressional App Challenge</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="comp.html" class="btn btn-primary">View Info</a>
             </div>
           </div>
         </div>
         <div class="col-md">
-          <div class="card bg-secondary">
+          <div class="card bg-dark mb-3">
             <div class="img"></div>
             <div class="card-body">
-              <h5 class="card-title">NASA Sparx</h5>
+              <h5 class="card-title">NASA SPARX Mission Commander Challenge</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="comp.html" class="btn btn-primary">View Info</a>
             </div>
           </div>
         </div>
         <div class="col-md">
-          <div class="card bg-secondary">
+          <div class="card bg-dark mb-3">
             <div class="img"></div>
             <div class="card-body">
               <h5 class="card-title">Amazon Future Engineer Remix</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="comp.html" class="btn btn-primary">View Info</a>
             </div>
           </div>
         </div>
@@ -115,9 +116,14 @@
   <!-- Meetings Sections-->
   <section class="bg-dark text-dark p-5">
     <div class="container">
+      <div class="row mb-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <h3 class="text-light">Club Meetings</h3>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md">
-          <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion mb-5 " id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -126,7 +132,7 @@
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>We teach students the basics of python.</strong> We are a beginner friendly club which requires no prior exprience. We help bring an introduction and encourage students to continue learning at home.
                 </div>
               </div>
             </div>
@@ -138,7 +144,7 @@
               </h2>
               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>We provide students with tutoring in their coding classes.</strong> We have top students who are great educators and enjoy the task of helping others. If you are a student struggling in Coding honors, AP Computer Science Princ, and AP Computer Science A you are in the right place.
                 </div>
               </div>
             </div>
@@ -150,7 +156,7 @@
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>We teach students to create their own websites.</strong> Creating websites is perfect for begginers because they can pick up mark up languages like html and css easily. This very site was created by students through code.
                 </div>
               </div>
             </div>
@@ -161,34 +167,34 @@
             <div class="row">
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-node-js bg-success"></i>
                 </div>
               </div>
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-python bg-primary"></i>
                 </div>
               </div>
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-java"></i>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-js bg-warning"></i>
                 </div>
               </div>
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-react bg-info"></i>
                 </div>
               </div>
               <div class="col">
                 <div class="bg-secondary d-flex align-items-center justify-content-center">
-                  <i class="fab fa-node-js"></i>
+                  <i class="fs-1 fab fa-angular bg-danger"></i>
                 </div>
               </div>
             </div>
@@ -203,9 +209,6 @@
       <p>Copyright &copy; 2022 EHS Coding Club</p>
     </div>
   </footer>
-
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

@@ -67,3 +67,68 @@
   margin-top: 20px;
   transform: rotate(0deg);
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  background: #f1f1f1;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-family: 'Montserrat';
+}
+
+.navbar .navbar-brand .img {
+  height: 40px;
+  width: 50px;
+  margin-bottom: 1rem;
+  background-image: url(../assets/CClogo.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .img {
+  background-image: url(../assets/cchero.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.competitions .card .img {
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.competitions .col-md:nth-child(1) .card .img {
+  background-image: url(../assets/congresscomp.jpg);
+}
+
+.competitions .col-md:nth-child(2) .card .img {
+  background-image: url(../assets/nasamoon.jpg);
+}
+
+.competitions .col-md:nth-child(3) .card .img {
+  background-image: url(../assets/amazoncomp.jpg);
+}
+
+.nasa .img {
+  background-image: url(../img/services.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
